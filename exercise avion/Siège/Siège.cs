@@ -11,7 +11,7 @@ namespace biblio_classe_avion
     /// </summary>
     public class Siège
     {
-        string classe;
+       private string classe;
         /// <summary>
         /// contructeur d'un siege
         /// </summary>
