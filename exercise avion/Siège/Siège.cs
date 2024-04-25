@@ -11,14 +11,14 @@ namespace biblio_classe_avion
     /// </summary>
     public class Siège
     {
-       private string classe;
+       private string _classe;
         /// <summary>
         /// contructeur d'un siege
         /// </summary>
         /// <param name="classe">la classe de son siège</param>
         public Siège(string classe)
         {
-            this.classe = classe;
+            this._classe = classe;
         }
     }
 }
