@@ -15,7 +15,7 @@ namespace biblio_classe_avion
         /// <summary>
         /// contructeur d'un siege
         /// </summary>
-        /// <param name="classe"></param>
+        /// <param name="classe">la classe de son siège</param>
         public Siège(string classe)
         {
             this.classe = classe;
