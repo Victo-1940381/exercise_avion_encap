@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace biblio_classe_avion
 {
-    internal class Siège
+    /// <summary>
+    /// classe que représent un siège de l'avion
+    /// </summary>
+    public class Siège
     {
+        string classe;
+        /// <summary>
+        /// contructeur d'un siege
+        /// </summary>
+        /// <param name="classe"></param>
+        public Siège(string classe)
+        {
+            this.classe = classe;
+        }
     }
 }
