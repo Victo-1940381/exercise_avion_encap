@@ -19,6 +19,7 @@ namespace biblio_classe_avion
         /// <param name="num_siege">le numero du siege</param>
         public habitacle(string classe, string nom, int numéro_siege, char lettre_siege) : base(classe, nom, numéro_siege, lettre_siege)
         {
+
         }
     }
 }
