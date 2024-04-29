@@ -19,5 +19,10 @@ namespace biblio_classe_avion
         public avion(string classe, string nom, int numéro_siege, char lettre_siege) : base(classe, nom, numéro_siege, lettre_siege)
         {
         }
+       
+    }
+    public void Assignerequipe(Equipe)
+    {
+
     }
 }
