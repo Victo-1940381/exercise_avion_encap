@@ -16,7 +16,15 @@ namespace biblio_classe_avion
         private string premier_agent;
         private string deuxième_agent;
         private string trosième_agent;
-
+        /// <summary>
+        /// constructeur d'un équipe 
+        /// </summary>
+        /// <param name="pilote">le pilote</param>
+        /// <param name="copilote">le copilote</param>
+        /// <param name="premier_agent">le premier agent de bord</param>
+        /// <param name="deuxième_agent">le deuxieme agend de bord</param>
+        /// <param name="trosième_agent">le trosième agent de bord</param>
+        /// <exception cref="ArgumentNullException"></exception>
         public Equipe(string pilote, string copilote, string premier_agent, string deuxième_agent, string trosième_agent)
         {
             this.pilote = pilote ?? throw new ArgumentNullException(nameof(pilote));
