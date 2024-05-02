@@ -10,13 +10,13 @@ namespace biblio_classe_avion
     /// <summary>
     /// représente un avion
     /// </summary>
-    public class avion : habitacle
+    public class Avion : habitacle
     {
 
         /// <summary>
         /// contructeur d'un avion
         /// </summary>
-        public avion(string classe, string nom, int numéro_siege, char lettre_siege) : base(classe, nom, numéro_siege, lettre_siege)
+        public Avion(string classe, string nom, int numéro_siege, char lettre_siege) : base(classe, nom, numéro_siege, lettre_siege)
         {
         }
        
@@ -24,6 +24,6 @@ namespace biblio_classe_avion
     public void ajouterpassager(passagers)
     {
        Stack <passagers> passagersiege = new Stack<passagers>();
-        passagersiege.;
+        passagersiege.Push(passagers);
     }
 }

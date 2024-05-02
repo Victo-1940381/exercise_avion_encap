@@ -9,7 +9,7 @@ namespace biblio_classe_avion
     /// <summary>
     /// represente un section de sieges
     /// </summary>
-    public class Section : Siège
+    public class Section : Siege
     {
        
         /// <summary>

@@ -9,7 +9,7 @@ namespace biblio_classe_avion
     /// <summary>
     /// représente un passager d'un avion
     /// </summary>
-    public class passagers
+    public class Passagers
     {
         private string _nom;
         private int _numéro_siege;
@@ -20,7 +20,7 @@ namespace biblio_classe_avion
         /// <param name="nom">le nom du passager</param>
         /// <param name="numéro_siege ">le numrero de son siege </param>
         /// <param name="lettre_siege">la lettre de son siege </param>
-        public passagers(string nom, int numéro_siege,char lettre_siege)
+        public Passagers(string nom, int numéro_siege,char lettre_siege)
         {
             this._nom = nom;
             this._numéro_siege = numéro_siege;
@@ -28,3 +28,4 @@ namespace biblio_classe_avion
         }
     }
 }
+
