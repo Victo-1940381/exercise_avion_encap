@@ -21,8 +21,9 @@ namespace biblio_classe_avion
         }
        
     }
-    public void Assignerequipe(Equipe)
+    public void ajouterpassager(passagers)
     {
-
+       Stack <passagers> passagersiege = new Stack<passagers>();
+        passagersiege.;
     }
 }
