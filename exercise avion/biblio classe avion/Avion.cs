@@ -10,7 +10,7 @@ namespace biblio_classe_avion
     /// <summary>
     /// représente un avion
     /// </summary>
-    public class Avion : habitacle
+    public class Avion : Habitacle
     {
 
         /// <summary>
@@ -21,9 +21,9 @@ namespace biblio_classe_avion
         }
        
     }
-    public void ajouterpassager(passagers)
+    public void ajouterpassager(Passagers)
     {
-       Stack <passagers> passagersiege = new Stack<passagers>();
-        passagersiege.Push(passagers);
+       Stack <Passagers> passagersiege = new Stack<Passagers>();
+        passagersiege.Push(Passagers);
     }
 }
