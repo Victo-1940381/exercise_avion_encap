@@ -20,7 +20,7 @@ namespace biblio_classe_avion
         /// <param name="nom">le nom du passager</param>
         /// <param name="numéro_siege ">le numrero de son siege </param>
         /// <param name="lettre_siege">la lettre de son siege </param>
-        public Passagers(string nom, int numéro_siege,char lettre_siege)
+        public Passagers(string nom, int numéro_siege, char lettre_siege, string classe) 
         {
             this._nom = nom;
             this._numéro_siege = numéro_siege;
